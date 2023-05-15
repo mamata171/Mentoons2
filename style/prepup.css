@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(141, 217, 210);
+   
+}
+.home{
+    display: flex;
+    /* background: url("../Images/nav.jpeg"); */
+
+}
+
+.img-div img{
+    height: 150px;
+    width: 200px;
+}
+
+.home h1{
+    font-size: 40px;
+    margin: 30px 30%;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+}
+
+.img-div1{
+    width: 300px;
+    height: 300px;
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    background-color: rgba(114, 91, 91,0.4);
+    border-radius: 50%;  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* box-shadow: 4px 4px 6px black; */
+   
+}
+
+.img-div1 img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.box p{
+    width: 450px;
+   text-align: justify;
+}
+
+.box1 .p1{
+    margin-top: 50px;
+}
+
+.box2{
+    margin-left: 100px;
+}
+.name{
+    margin-top: 20px;
+}
+
+.inner-flex{
+    display: flex;
+
+}
+
+.ifb{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(114, 91, 91,0.4);
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+}
+
+.ifb img{
+    width: 70px;
+    height: 70px;
+    /* border-radius: 10px; */
+    
+}
+
+.ifb button{
+    padding: 0%;
+    border: transparent;
+}
+
+.buy-btn:hover{
+    border: 1px solid black;
+}
+

@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: rgb(153, 153, 246); */
+}
+
+.home{
+    display: flex;
+    background: url("Images/nav.jpeg");
+    /* color: white; */
+
+}
+
+.img-div img{
+    height: 100px;
+    width: 150px;
+}
+
+.home h1{
+    font-size: 40px;
+    margin: 30px 30%;
+}
+
+.item img{
+    height: 80vh;
+    width: 100%;
+}
+
+.carousel img{
+    height: 90vh;
+}
