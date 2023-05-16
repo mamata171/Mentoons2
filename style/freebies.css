@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgba(186,75,65,0.8);
+   
+}
+.home{
+    display: flex;
+    /* background: url("../Images/nav.jpeg"); */
+
+}
+
+.img-div img{
+    height: 150px;
+    width: 200px;
+}
+
+.home h1{
+    font-size: 40px;
+    margin: 30px 30%;
+}
+
+.flex-box1{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 20vw;
+    height: 250px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin: 20px 30px;
+    box-shadow: inset 0 0 0 12px rgb(231, 111, 111);
+    outline: 2px solid black;
+    
+}

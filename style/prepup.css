@@ -62,11 +62,15 @@ body{
 }
 
 .img-div1 img{
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     border-radius: 10px;
 }
 
+.img-div1 img:hover{
+    width: 200px;
+    box-shadow: 4px 4px 7px black;
+}
 .box p{
     width: 450px;
    text-align: justify;
