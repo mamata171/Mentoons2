@@ -39,6 +39,8 @@ body{
     text-decoration: none;
     color:black;
     /* width: 45px; */
+    text-align: center;
+    padding: 20px;
     
 }
 .flex-box{
