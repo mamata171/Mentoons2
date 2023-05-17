@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    /* font-family:'Times New Roman', Times, serif; */
+    /* font-family: fu; */
+    background-image: url("../Images/speakeasy/back.avif");
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.home{
+    display: flex;
+    /* background: url("../Images/nav.jpeg"); */
+
+}
+
+.img-div img{
+    height: 150px;
+    width: 200px;
+}
+
+.home h1{
+    font-size: 45px;
+    margin: 30px 30%;
+}
+
+.content{
+    text-align: center;
+    font-size: 25px;
+}
+
+.flex-boxes{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 20px 30px;
+    box-shadow: 4px 4px 8px black;
+    transition: box-shadow 0.6s ease;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 20px black;
+}

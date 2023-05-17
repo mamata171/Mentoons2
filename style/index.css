@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   
+}
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("Images/home-images/logo.png"); */
+    /* background: linear-gradient(rgb(230, 240, 51), rgb(64, 209, 64)); */
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    /* background-color: rgb(255, 213, 0); */
+    background-image: url("../Images/home-images/nav.jpeg");
+}
+
+
+.buttons{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    float: right;
+    margin: 10px 20px; 
+  }
+
+  .buttons a{
+    padding: 8px;
+  }
+
+  .buttons button{
+    padding: 8px 8px;
+    /* border: 1px solid rgb(73, 222, 43); */
+    background: transparent;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    box-shadow: 2px 2px 2px rgb(78, 76, 76);
+
+    cursor: pointer;
+    font-weight:500;
+    font-size: larger;
+  }
+
+  .buttons button:hover{
+    background-color: rgb(222, 222, 171);
+  }
+  .content video{
+    margin-top: 0px !important;
+    width: 400px;
+    height: 300px;
+    /* border-radius: 10px; */
+    /* margin-left: 100px; */
+  }
+
+
+  .left-side p{
+    max-width: 400px;
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .right-side h2{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    
+  }
+
+  .main-content{
+    background-image: url("../Images/home-images/text-green.jpeg");
+    margin-bottom: 0px !important;
+  }
+  .content{
+    margin-top: 0px !important;
+   display: flex;
+   justify-content:space-around;
+   /* background-color: rgb(176, 210, 110); */
+   font-size: 1.6rem;
+   padding: 10px;
+  }
+
+  .p{
+    width: 33.33%;
+    height: 70px;
+
+  }
+
+  .p a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+
+  }
+
+  .p a:hover{
+    letter-spacing: 1px;
+  }
+
+  .box1{
+    background-color: rgba(255, 89, 0,0.6);
+  }
+
+ .box2{
+    background-color: rgba(255, 183, 0,0.6);
+ }
+  
+.box3{
+    background-color: rgba(214, 250, 9, 0.7);
+}
+  
+video{
+    width: 300px;
+    height: 200px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 5px;
+}
+.other{
+    margin-top: 0px !important;
+    display: flex;
+    text-align: center;
+
+}
+
+.p h1{
+    font-size: 1.5em;
+}
