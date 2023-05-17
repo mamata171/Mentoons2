@@ -18,12 +18,12 @@ body{
 
 .home h1{
     font-size: 40px;
-    margin: 30px 30%;
+    margin: 30px 25%;
 }
 
 .freebies{
     letter-spacing: 1.5px;
-    font-size: 2rem;
+    font-size: 5rem !important;
 }
 
 .flex-box1{
