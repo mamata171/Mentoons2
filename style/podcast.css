@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.8);
+    font-family: Helvetica, Sans-Serif;
+    color: aliceblue;
+   
+}
+.home{
+    display: flex;
+    /* background: url("../Images/nav.jpeg"); */
+
+}
+
+.img-div img{
+    height: 150px;
+    width: 200px;
+}
+
+.freebies{
+    letter-spacing: 1.5px;
+    font-size: 5rem !important;
+    text-align: center;
+    margin: 20px 25%;
+
+}
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px 40px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* box-shadow: 4px 4px 8px rgb(159, 148, 148); */
+    color: black;
+    /* border-radius: 5px; */
+
+}
+
+.box span{
+    text-align: center;
+}
+
+.box button{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px;
+
+}
+
+.right-side{
+    position:absolute;
+    top: 35%;
+    right: 0px;
+}
+
+.right-box{
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px 0px;
+    padding: 3px 5px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    background-color:  #4990fa;
+    transition: background-color 0.6s ease;
+
+}
+
+.right-box span{
+    display: block;
+    /* text-align: center; */
+}
+
+.right-box:hover{
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+.flex-box2{
+    /* width: 90%; */
+    /* justify-content:center; */
+}
+
+.flex-box2 .box{
+    margin-left: 30px;
+}
+
+.music{
+    width: 250px;
+    height: 200px;
+}
+
+.second{
+    width: 250px;
+    height: 200px;
+}
+
+.box button{
+    border-radius: 0px !important;
+}
