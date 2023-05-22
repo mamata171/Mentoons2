@@ -33,7 +33,7 @@ body{
 
 .box{
     width: 15vw;
-    height: 250px;
+    height: 200px;
     background-color: aliceblue;
     display: flex;
     justify-content: center;
@@ -48,4 +48,12 @@ body{
 .box span{
     display: block;
     text-align: center;
+}
+
+.box:hover{
+    cursor: pointer;
+    box-shadow: 6px 6px 13px black;
+    border: none;
+    outline: none;
+    /* border-radius: 20px; */
 }

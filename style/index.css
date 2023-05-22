@@ -7,12 +7,12 @@ body{
 }
 
 .home{
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     /* background-image: url("Images/home-images/logo.png"); */
     /* background: linear-gradient(rgb(230, 240, 51), rgb(64, 209, 64)); */
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover;
+    background-position: center; */
 }
 
 nav{
@@ -133,3 +133,4 @@ video{
 .p h1{
     font-size: 1.5em;
 }
+

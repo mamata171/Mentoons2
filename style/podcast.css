@@ -2,7 +2,8 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color:rgba(0, 0, 0, 0.8);
+    /* background-color:rgba(0, 0, 0, 0.8); */
+    background-color: #009ba0;
     font-family: Helvetica, Sans-Serif;
     color: aliceblue;
    
@@ -39,13 +40,14 @@ body{
     font-size: 1.5rem;
     width: 200px;
     height: 200px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 20px 40px;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.9);
-    /* box-shadow: 4px 4px 8px rgb(159, 148, 148); */
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    background-color: #ff837f;
+    box-shadow: 4px 4px 8px rgb(6, 6, 6);
     color: black;
-    /* border-radius: 5px; */
+    border-radius: 5px;
 
 }
 
@@ -70,14 +72,17 @@ body{
 
 .right-box{
     width: 200px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 10px 0px;
     padding: 3px 5px;
-    background-color: aliceblue;
+    background-color: #009ba0;
     margin-bottom: 20px;
     color: rgb(255, 255, 255);
-    background-color:  #4990fa;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
     transition: background-color 0.6s ease;
+    
 
 }
 
@@ -89,7 +94,7 @@ body{
 .right-box:hover{
     cursor: pointer;
     color: aliceblue;
-    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    box-shadow: 4px 4px 13px rgb(0, 0, 0);
 }
 
 .flex-box2{
@@ -113,4 +118,10 @@ body{
 
 .box button{
     border-radius: 0px !important;
+    background-color: #009ba0;
+    border: none;
+}
+
+.box button:hover{
+    background-color: #009ba0;
 }
