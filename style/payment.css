@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    font-family: Helvetica, Sans-Serif;
+   
+}
+.home{
+    display: flex;
+
+}
+
+.img-div img{
+    height: 150px;
+    width: 200px;
+}
+
+.freebies{
+    letter-spacing: 1.5px;
+    font-size: 5rem !important;
+    text-align: center;
+    margin: 20px 20%;
+
+}
+
+.freebies p{
+    font-size: small !important;
+}

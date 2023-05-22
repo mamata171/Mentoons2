@@ -129,10 +129,14 @@ a{
     align-items: center;
 }
 
+.below{
+    display: flex;
+    justify-content: center;
+}
 .comic{
-    width: 900px;
+    width: 440px;
     height: 80px;
-    margin: 20px;
+    /* margin: 20px; */
     margin: auto;
     background-color: rgb(13,119,170);
     display: flex;
@@ -140,7 +144,11 @@ a{
     justify-content: center;
     align-items: center;    
     transition: box-shadow 0.6s ease;
+    
+}
 
+.audiocomic{
+    margin-left: 20px;
 }
 
 .comic:hover{

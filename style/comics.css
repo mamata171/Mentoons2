@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    font-family: Helvetica, Sans-Serif;
+   
+}
+.home{
+    display: flex;
+
+}
+
+.img-div img{
+    height: 150px;
+    width: 200px;
+}
+
+
+
+.freebies{
+    letter-spacing: 1.5px;
+    font-size: 5rem !important;
+    text-align: center;
+    margin: 20px 20%;
+
+}
+
+.freebies p{
+    font-size: small !important;
+}
+
+.flex-box3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fb3{
+    width: 240px;
+    height: 230px;
+    box-shadow: 3px 3px 7px black;
+    border-radius: 10px;
+
+}
+
+.fb3 button{
+    margin-top: 30px;
+    padding: 8px 10px;
+    background:linear-gradient(rgb(175, 50, 175),rgb(216, 131, 199));
+    width: 240px;
+    border-radius: 10px;
+}
+
+.fb3 img{
+    width: 240px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.fb3:hover{
+    box-shadow: 8px 8px 20px black;
+}
+
+.second-row{
+    margin-top: 130px;
+}
