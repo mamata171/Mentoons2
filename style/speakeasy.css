@@ -3,8 +3,6 @@ body{
     padding: 0px;
     box-sizing: border-box;
 
-    /* font-family:'Times New Roman', Times, serif; */
-    /* font-family: fu; */
     background-image: url("../Images/speakeasy/back.avif");
     background-position: center;
     background-size: cover;
@@ -24,6 +22,7 @@ body{
 .home h1{
     font-size: 45px;
     margin: 30px 30%;
+    letter-spacing: 1.5px;
 }
 
 .content{
@@ -43,4 +42,9 @@ body{
 
 .card:hover{
     box-shadow: 4px 4px 20px black;
+}
+
+.content span{
+    font-size: 20px;
+    margin-left: 10px;
 }

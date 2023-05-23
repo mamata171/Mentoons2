@@ -14,18 +14,18 @@
         <div class="img-div">
           <a href="index.html"> <img src="Images/home-images/final-logo.png" alt=""> </a> 
         </div>
-        <h1 class="text-center">Prep Up</h1>
+        <h1 class="text-center">PREPPERS</h1>
 
        <div class="ppp"> <a href="pp+.html" >
-            Upgrade to Prep Up+
+            <img src="Images/prepup/ppp.png" alt="">
           </a> </div>
         
     </div>
 
     <section class="flex-box">
             <div class="box box1">
-                <div class="img-div1"> <img src="Images/prepup/six.jpeg" alt=""  id="MainImg"></div>
-                <p class="p1">Prep-up is a three-step process ( listening service, worksheets and stories-relaxation techniques)</p>
+                <div class="img-div1"> <img src="Images/prepup/six.png" alt=""  id="MainImg"></div>
+                <p class="p1">Preppers is a three-step process ( listening service, worksheets and stories-relaxation techniques)</p>
                 <!-- <p>Prep-up + is a four-step process (first three step same as prep-up, last step includes education and career guidance; 4 illustrations)</p> -->
                 <p><b>Hurry up: </b> first 100 kids will get free pdf of book- ‘How to Handle Relationships’</p>
 
@@ -33,26 +33,26 @@
             </div>
 
             <div class="box box2">
-                <h2 class="name" id="product_name">Prep Up for 6-12 age</h2>
-                <div>
-                    <p>--> listening service</p>
-                    <p>--> Silent stories</p>
-                    <p>--> Audio comics</p>
-                    <p>--> Worksheets</p>
+                <h2 class="name" id="product_name">Preppers for 6-12 age</h2>
+                <div id="product-desc">
+                    <p class="para">--> listening service</p>
+                    <p class="para">--> Silent stories</p>
+                    <p class="para">--> Audio comics</p>
+                    <p class="para">--> Worksheets</p>
                 </div>
                 <h3 class="price" id="product_price">Rs/- 3773 <s>4999</s> </h3>
-                <button type="button" class="btn btn-info my-2 buy-btn">BUY</button>
+                <a href="payment.html"><button type="button" class="btn btn-info my-2 buy-btn">BUY</button></a>
 
-                <h4 class="mt-5">Similar Products</h4>
+                <h4 class="mt-3">Similar Products</h4>
                 <div class="inner-flex">
                     <div class="ifb ifb1">
-                      <button> <img src="Images/prepup/thirteen.jpeg" alt="" class="small-img"> </button>
+                      <button> <img src="Images/prepup/thirteen.png" alt="" class="small-img"> </button>
                     </div>
                     <div class="ifb ifb1">
-                   <button><img src="Images/prepup/family.jpg" alt="" class="small-img"> </button> </button>
+                   <button><img src="Images/prepup/family.png" alt="" class="small-img"> </button> </button>
                     </div>
                     <div class="ifb ifb1">
-                    <button> <img src="Images/prepup/six.jpeg" alt="" class="small-img"></button>  
+                    <button> <img src="Images/prepup/six.png" alt="" class="small-img"></button>  
                     </div>
                 </div>
             </div>
@@ -64,14 +64,21 @@
         var smallimg = document.getElementsByClassName("small-img")
         var product_name =  document.getElementById("product_name")
         var product_price = document.getElementById("product_price")
+        var paras = document.getElementsByClassName("para")
 
 
         smallimg[0].onclick = function(){
        
             MainImg.src = smallimg[0].src;
             console.log(smallimg[0].src)
-            product_name.innerHTML = "Prep Up for 13-19 age"
+            product_name.innerHTML = "Preppers for 13-19 age"
             product_price.innerHTML = "Rs/- 3773 <s>4999</s>"
+            paras[0].innerHTML = "--> SOC-MED"
+            paras[1].innerHTML = "--> CELL-AID"
+            paras[2].innerHTML = "--> GAME-CHANGER"
+            paras[3].innerHTML = ""
+
+
             console.log(smallimg[0].src)
 
 
@@ -79,14 +86,14 @@
         smallimg[1].onclick = function(){
             console.log("smallimg2")
             MainImg.src = smallimg[1].src;
-            product_name.innerHTML = "Prep Up for familly"
+            product_name.innerHTML = "Preppers for familly"
             product_price.innerHTML = "Rs/- 3773 <s>4999</s>"
             smallimg[1].src = MainImg.src
 
         }
         smallimg[2].onclick = function(){
             MainImg.src = smallimg[2].src;
-            product_name.innerHTML = "Prep Up for 6-12 age"
+            product_name.innerHTML = "Preppers for 6-12 age"
             product_price.innerHTML = "Rs/- 3773 <s>4999</s>"
             smallimg[2].src = MainImg.src
 
