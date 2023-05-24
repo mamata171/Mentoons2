@@ -93,32 +93,32 @@
       <a href="index.html">  <img src="Images/home-images/final-logo.png" alt=""></a>
     </div>
   
-    <form action="https://formsubmit.co/metalmahesh@gmail.com" method="POST" id="myform">
+    <form action="https://formsubmit.co/mamata.glb2000@gmail.com" method="POST" id="myform">
         <h1 class="">SIGN UP</h1>
         <div class="form-group">
           <!-- <label for="exampleInputEmail1">User Name </label> -->
-          <input type="text" required class="form-control"  aria-describedby="emailHelp" placeholder="Enter User Name">
+          <input type="text" required class="form-control"  aria-describedby="emailHelp" placeholder="Enter User Name" name="User Name">
         </div>
 
         <div class="form-group">
-            <input type="text" required class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+            <input type="text" required class="form-control" aria-describedby="emailHelp" placeholder="Enter Password" name="Password">
             <small id="passwordHelpInline" class="text-muted">
                 Must be 8-20 characters long.
               </small>          
         </div>
 
         <div class="form-group">
-            <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+            <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" name="Email">
           </div>
 
           <div class="form-group">
-            <input type="text" id="myform_phone" name="phone"  required class="form-control" aria-describedby="emailHelp" placeholder="Enter Phone Number">
+            <input type="text" id="myform_phone" name="phone"  required class="form-control" aria-describedby="emailHelp" placeholder="Enter Phone Number" name="Phone Number">
             <div id="phone_error" class="error hidden"> Please enter a valid phone number </div>
 
           </div>
 
         <div class="form-group">
-                <input type="password"  id="whatsapp" name="whatsapp" class="form-control" placeholder="Enter Whatsapp Number">
+                <input type="password"  id="whatsapp" name="whatsapp" class="form-control" placeholder="Enter Whatsapp Number" name="Whatsapp Number">
                 <div id="phone_error" class="whatsapp_error w_hidden"> Please enter a valid phone number </div>
 
         </div>
@@ -138,7 +138,7 @@
             <label for="parent">Parent</label>
         </div>
     
-       <button type="submit" class="btn btn-success">Sign Up</button> 
+       <button type="submit" class="btn btn-success" onclick="myfun()">Sign Up</button> 
 
         <p class="mt-2 text-center">Already have an account? <a href="login.html" class="login-a text-primary"> Login </a></p>
       </form>
@@ -167,7 +167,9 @@
       }
 
       document.getElementById('myform').addEventListener('submit', validateForm);
-
+      function myfun(){
+        console.log("buttons clicked!!!!!!!")
+      }
 </script>
 </body>
 </html>
